@@ -1,0 +1,42 @@
+exceptional handling:
+errors:
+1.logical errors
+2.syntax errors
+
+
+exceptions are two types:(case sensitive)
+1.synchronous-solvable
+2.asynchronous-not solvable
+
+
+
+
+exception-for base classes:
+    1.ArithmeticError---math errors
+    2.ZeroDivisionError---4/0....
+    3.StopIteration---next method or iterator not available/condition not available
+    4.SystemExit---current os exit 
+    5.StandardError---predined keywords mismatch
+    6.EOFError---i/o till the End Of File 
+    7.ImportError---if the imported file doesnt exist then this happens
+    8.KeyboardInterrupt---executio KeyBoardInterrupt
+    9.NameError---if name doesnt exists
+    10.ValueError---if value doesnt support
+    11.TypeError---if datatype doesnt mismatch
+    12.IndexError---index mismatch
+    13.IOError---input output data mismatch
+    14.RuntimeError---error at Runtime
+    15.SyntaxError---predefined syntax mismatch
+    16.IndentationError---indentation missing
+    17.AttributeError---if we pass 3 args instead of 2 args
+    18.AssertionError---raise when an asserion stmt fails
+
+
+
+syntax:
+                try:
+                    -----------
+                    -----------
+                    -----------
+                    -----------
+                except -----------:
